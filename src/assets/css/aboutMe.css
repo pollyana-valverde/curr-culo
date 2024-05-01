@@ -1,0 +1,24 @@
+@import './cores.css';
+
+.about_body{
+    margin: 70px auto;
+}
+
+.about_content{
+    width: 100%;
+    justify-content: center;
+    box-shadow: var( --black-shadow-inset);
+    border-radius: 30px;
+    padding: 30px;
+    color: var( --white);
+}
+
+.sobrePartI{
+    border-right: var( --dark-border) ;
+    margin: 20px;
+}
+
+.sobrePartII{
+    margin: 30px 20px;
+}
+

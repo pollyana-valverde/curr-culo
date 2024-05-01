@@ -1,0 +1,79 @@
+@import './cores.css';
+
+.formBody{
+    margin: 40px auto;
+    box-shadow: var(--black-shadow-inset);
+    padding: 40px !important;
+    border-radius: 20px; 
+
+}
+
+.formBody h2{
+color: var(--white) !important;
+margin-bottom: 20px;
+}
+
+.contatoInputBody{
+    height: 100% !important;
+    background-color: white;
+    padding: 1px 1px !important;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.contatoInput input{
+    background-color: transparent;
+    box-shadow: var(--black-shadow-inset);
+    border: var(--medium-border) !important;
+    border-radius: 20px;
+    color: #1b6a6f !important;
+z-index: 999;
+}
+
+.contatoInput input:focus{
+    background-color: var(--light-green);
+    color: var(--white) !important;
+    box-shadow: var(--black-shadow-inset);
+}
+
+.contatoInput label{
+    color: #1b6a6f !important;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label{
+    color: var(--white) !important;
+    background-color: transparent !important;
+}
+
+.form-floating>.form-control:not(:placeholder-shown)~label::after{
+    color: var(--white) !important;
+    background-color: transparent !important;
+}
+
+
+.contatoTextarea textarea{
+    background-color: transparent;
+    box-shadow: var(--black-shadow-inset);
+    border: var( --medium-border) !important;
+    border-radius: 20px;
+    color: var(--light-green) !important;
+    
+}
+
+.contatoTextarea textarea:focus{
+    background-color: var(--light-green);
+    color: var(--white) !important;
+    box-shadow: var(--black-shadow-inset);
+
+}
+
+.contatoTextarea label{
+    color: #1b6a6f !important;
+
+}
+
+.contatoBtn{
+    justify-content: right !important;
+    display: flex;
+    margin-top: 10px !important;
+}

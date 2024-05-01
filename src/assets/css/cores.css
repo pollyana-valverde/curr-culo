@@ -1,0 +1,47 @@
+:root {
+    --dark-green: #064d54bc;
+    --medium-green: #065b61;
+    --light-green: #1b6a6f;
+    --white: #ffffff;
+    --white-less-opacity: #ffffffbe;
+
+    /*sombras*/
+    --black-shadow-inset: 1px 1px 15px 1px rgba(0, 0, 0, 0.146) inset;
+    --black-shadow-out: 1px 1px 15px 1px rgba(0, 0, 0, 0.204);
+    --light-shadow: 1px 1px 20px 1px #1b6a6f;
+
+    /* bordas */
+    --dark-border: #06484ed2 1px solid;
+    --medium-border: 1px solid #1b6a6f;
+    --light-border: 1px solid #ffffff;
+
+    --img-change: url('../imagens/foto-perfil-dark.png');
+
+}
+
+
+[data-theme="dark"] {
+    --dark-green: #b4dbdd;
+    --medium-green: #a3c5c7;
+    --light-green: #e0efef;
+    --white: #064d54bc;
+    --white-less-opacity: #064d548f;
+
+    /*sombras*/
+    --black-shadow-inset: 1px 1px 15px 1px rgba(0, 0, 0, 0.146) inset;
+    --black-shadow-out: 1px 1px 15px 1px rgba(0, 0, 0, 0.204);
+    --light-shadow: 1px 1px 20px 1px #bbf4f4;
+
+    /* bordas */
+    --dark-border: #8fadaf 1px solid;
+    --medium-border: 1px solid #064d54bc;
+    --light-border: 1px solid #e0efef ;
+
+    --img-change: url('../imagens/foto-perfil-light.png');
+
+}
+
+
+* {
+    transition: all .1s ease-in-out;
+}

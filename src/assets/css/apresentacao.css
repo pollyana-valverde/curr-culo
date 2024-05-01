@@ -1,0 +1,56 @@
+/* .apre_body{
+    margin: 40px auto;
+} */
+
+.txtApre {
+    color: var( --white);
+    margin: 12% 0;
+    /* margin-bottom: 80px; */
+    justify-content: center !important;
+    align-items: center;
+    display: flex;
+  }
+
+  .article_subtitle{
+    margin-right: 90px;
+  }
+
+  span.article_subtitle::after{
+    content: '';
+    position: absolute;
+    margin-top: 11px;
+    width: 75px;
+    height: 1px;
+    background: var( --white);
+    border-radius: 100% !important;
+  }
+
+.social_icons svg{
+  font-size: 23px;
+  display: flex ;
+  justify-content: center !important;
+  margin: 20px 0;
+  color: var( --white);
+}
+
+.perfil_aprentacao {
+  margin-top: -30px;
+  background: var(--img-change)!important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+    width: 110%;
+    height: 200%;
+    animation:
+    3s linear 0s infinite alternate moveImg;
+    
+}
+
+
+@keyframes moveImg {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(30px);
+  }
+}

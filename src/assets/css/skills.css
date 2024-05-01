@@ -1,0 +1,54 @@
+@import './cores.css';
+
+
+.AccordItem{
+    border-radius: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.accordion-item:first-of-type .accordion-button, .accordion-button{
+    border-radius: 20px !important;
+        border: var(--medium-border) !important;
+        color: var(--light-green);
+}
+
+.accordion-button{
+    color: #1b6a6f !important;
+    border: var(--medium-border) !important ;
+
+}
+
+.accordion-button:not(.collapsed){
+    background-color: var(--light-green) !important;     
+    border: var(--medium-border)!important;
+    color: var(--white) !important;
+}
+
+.accordion-button:focus{   
+    box-shadow: unset !important;
+}
+
+.accordion-button:not(.collapsed)::after i{
+    color: var(--white) !important;
+}
+
+
+.barrasSkills p{
+color: #1b6a6f !important;
+}
+
+.barrasSkills .barras{
+    margin-top: -30px !important;
+    margin-bottom: 5px;
+    height: 8px !important;
+}
+
+.progress-bar-striped{
+    background-color: #1b6a6f !important;
+}
+
+.barrasSkills p{
+    display: flex;
+    justify-content: space-between;
+}
+

@@ -1,0 +1,44 @@
+@import './cores.css';
+
+.footerBody{
+    background-color: var( --medium-green);
+    width: 100% !important;
+    height: 60px;
+    padding: 20px;
+    text-align: center;
+    color: var( --white);
+}
+
+.footerBody p::before{
+    margin: 10px ;
+    content: '';
+    position: absolute;
+    left: 8%;
+    background-color: var( --white);
+    width: 28%;
+    height: 1px;
+}
+
+.footerBody p::after{
+    margin: 10px 30px;
+    content: '';
+    position: absolute;
+    background-color: var( --white);
+    width: 30%;
+    height: 1px;
+}
+
+@media (max-width: 700px){
+    .footerBody p::after{
+        content: '';
+        width: 0%;
+        height: 0;
+    }
+
+    .footerBody p::before{
+        content: '';
+        width: 0%;
+        height: 0;
+    }
+    
+}

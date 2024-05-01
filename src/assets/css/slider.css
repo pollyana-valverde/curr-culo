@@ -1,0 +1,37 @@
+@import "./cores.css";
+
+.sliderBody{
+  margin: 40px auto;
+}
+
+.sliderBody h1{
+  color: var( --white-less-opacity) !important;
+  margin-bottom: 20px;
+}
+
+.sliderContent{
+  border-radius: 20px;
+    padding: 10px;
+    box-shadow: var( --black-shadow-out);
+}
+
+.sliderCard{
+    background-color: var( --dark-green);
+    border-radius: 20px;
+    padding: 40px;
+    color: var(--white);
+border:  var(--dark-border);
+min-height: 300px !important;
+}
+
+.sliderCard label{
+  color: var( --white-less-opacity) ;
+}
+
+.sliderCard h5{
+  font-size: 23px;
+}
+
+.sliderCard p{
+  font-size: 19px;
+}

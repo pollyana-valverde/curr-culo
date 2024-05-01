@@ -1,0 +1,24 @@
+@import './cores.css';
+
+/* .btnApre{
+    transition: .6s ease !important;
+} */
+
+button.btnApre {
+    transition: all .6s ease !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: var( --black-shadow-inset);
+    border-radius: 20px;
+    padding: 10px 20px !important;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+button.btnApre:hover {
+    box-shadow: var( --black-shadow-out);
+    color: var(--white);
+
+}

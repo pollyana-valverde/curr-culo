@@ -1,0 +1,62 @@
+@import './cores.css';
+
+
+.cardExpande{
+      display: flex;
+    justify-content: center;
+}
+
+.cardExpandeBody {
+    color: var( --white) !important;
+    margin: 30px 10px;
+    height: 280px !important;
+    overflow: hidden !important;
+    background-color: transparent !important;
+    box-shadow: var( --black-shadow-out ) !important;
+    border-radius: 20px !important;
+    transition: .6s  ease !important;
+}
+
+.cardExpandeBody img {
+    border-radius: 20px;
+
+}
+.cardExpandeTitle{
+    bottom: 3%;
+    position: absolute !important;
+    transition: .1s  ease !important;
+
+}
+
+.cardExpandeBody.cardAtivo .cardExpandeTitle{
+    bottom: 35%;
+    z-index: 999;
+}
+
+.cardExpandeBody.cardAtivo {
+    color: var( --white);
+    padding: 20px;
+    background-color: var( --medium-green) !important;
+    overflow: hidden !important;
+    width: fit-content;
+    height: fit-content !important;
+}
+
+.cardExpandeBody .btnPort{
+    color: var( --white) !important;
+    background-color: transparent !important;
+    box-shadow: var( --light-shadow);
+    border-radius: 20px;
+    border: none !important;
+    padding: 10px 20px !important;
+    transition: 6s  ease !important;
+
+}
+
+.cardExpandeBody.cardAtivo .btnPort:hover{
+    box-shadow: var( --black-shadow-inset);
+}
+
+.card-text{
+    margin: 25px auto;
+}

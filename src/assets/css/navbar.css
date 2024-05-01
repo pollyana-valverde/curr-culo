@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import "./cores.css";
+
+
+body{
+    background-color: var( --light-green);
+     font-family: "Poppins", sans-serif;
+}
+
+.cabecalho{
+    background-color: var( --medium-green) !important;
+    box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, 0.137);
+    transition: all .6s ease;
+}
+
+.cabecalho-bg{
+    background-color: var( --light-green) !important;
+    box-shadow: var( --black-shadow-out);
+}
+
+.navEspaco{
+    margin: 90px !important;
+}
+
+.cabecalho .marca h5{
+    margin: auto ;
+    color:var( --white);
+}
+
+.cabecalho .perfil{
+    margin: auto;
+    margin-right: 20px;
+    border-radius: 100%;
+}
+
+.cabecalho ul.navegacaoNavbar{
+    margin: auto ;
+    display: flex;
+    list-style: none !important;
+    color: var( --white);
+}
+
+/* botão navbar */
+.cabecalho .btnContato{
+    position: absolute;
+    right: 10%;
+    align-items: right !important;
+    display: flex;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: var( --black-shadow-inset);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .5s ease all !important;
+}
+
+.cabecalho .btnContato:hover{
+    box-shadow: var( --black-shadow-out);
+    
+}
+
+.cabecalho .textoBtn{
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+}
+
+

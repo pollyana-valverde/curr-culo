@@ -1,0 +1,11 @@
+@import './cores.css';
+
+
+.portBody{
+    margin: 60px auto;
+}
+
+.portTitle{
+    color: var(--white);
+    text-align: center;
+}
